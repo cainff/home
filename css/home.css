@@ -1,0 +1,41 @@
+/**Class**/
+
+.main_title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.main_subtitle {
+    font-family:'Noto Sans',sans-serif;
+    font-size: 34px;
+    font-style: italic;
+    letter-spacing: 5px;
+    color:black;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.number {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72px;
+    color:white;
+    font-weight: 800;
+    letter-spacing: 3px;
+}

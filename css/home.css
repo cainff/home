@@ -1,3 +1,10 @@
+/** FONTS
+font-family: 'Dosis', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+**/
+
+
 /**Class**/
 
 .main_title {
@@ -39,3 +46,37 @@
     font-weight: 800;
     letter-spacing: 3px;
 }
+
+.number_letter {
+    font-family:'Noto Sans',sans-serif;
+    font-size: 26px;
+    font-style: italic;
+    color:#757575;
+}
+
+.pclass {
+    font-family:'Noto Sans',sans-serif;
+    font-size: 14px;
+    color:#757575;
+    white-space: pre-wrap;
+    line-height: 3px;
+}
+
+.pclass2 {
+    font-family:'Noto Sans',sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color:white;
+    white-space: pre-wrap;
+    line-height: 3px;
+}
+
+
+.pform {
+    font-family:'Noto Sans',sans-serif;
+    font-size: 14px;
+    color:#757575;
+}
+
+
+

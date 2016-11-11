@@ -123,7 +123,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 #bloc6 {
-    height: 620px;
+    height: 900px;
     width: 100%;
     background-color: #121212;
 }
@@ -302,6 +302,27 @@ font-family: 'Montserrat', sans-serif;
 }
 
 /**Bloc 6**/
+
+.array {
+    width: 260px;
+    height: 600px;
+    border:1px solid #505050;
+    position: relative;
+    float:left;
+    display: inline;
+    margin-top: 180px;
+    margin-left: 25px;
+}
+
+.content_array {
+    width: 80%;
+    height: 97%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: -15px;
+}
+
+
 
 /**Bloc 7**/
 

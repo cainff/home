@@ -129,7 +129,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 #bloc7 {
-    height: 850px;
+    height: 1100px;
     width: 100%;
     background-color: black;
 }
@@ -303,6 +303,60 @@ font-family: 'Montserrat', sans-serif;
 /**Bloc 6**/
 
 /**Bloc 7**/
+
+.skills{
+    height:30%;
+    width: 25%;
+    position: relative;
+    float: left;
+    display: inline;
+    margin-top: 240px;
+}
+
+.awesome {
+    position: relative;
+    float:left;
+    height: 35%;
+    width: 50%;
+    margin-top: 120px;
+}
+
+.colorful {
+    position: relative;
+    float:right;
+    height: 35%;
+    width: 50%;
+    margin-top: 120px;
+}
+
+.circle {
+    border:1px solid ;
+    border-radius:50%;
+    height: 120px;
+    width: 120px;
+    background:rgba(255,255,255, 0.7);
+}
+
+.guillemet {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 82px;
+    color:white;
+    font-weight: 800;
+    font-style: italic;
+    margin-top: -15px;
+}
+
+.border-radient {
+    border-top:2px solid;
+    width: 120px;
+    height: 2px;
+    margin-top: 15px;
+    background: -webkit-linear-gradient(70deg, #f3c400, #ff5901);
+    background: -moz-linear-gradient(70deg, #f3c400, #ff5901);
+    background: -o-linear-gradient(70deg, #f3c400, #ff5901);
+    background: linear-gradient(70deg, #f3c400, #ff5901);
+}
+
 
 /**Bloc 8**/
 

@@ -140,12 +140,13 @@ font-family: 'Montserrat', sans-serif;
     background-color: #121212;
 }
 #bloc9 {
-    height: 65px;
+    height: 85px;
     width: 100%;
-    background: -webkit-linear-gradient(70deg, #f3c400, #ff5901);
+    background-color: #121212;
+    /**background: -webkit-linear-gradient(70deg, #f3c400, #ff5901);
     background: -o-linear-gradient(70deg, #f3c400, #ff5901);
     background: -moz-linear-gradient(70deg, #f3c400, #ff5901); 
-    background: linear-gradient(70deg, #f3c400, #ff5901);
+    background: linear-gradient(70deg, #f3c400, #ff5901); **/
 }
 
 #bloc10 {
@@ -361,6 +362,32 @@ font-family: 'Montserrat', sans-serif;
 /**Bloc 8**/
 
 /**Bloc 9**/
+
+.social {
+    border: 1px solid white;
+    padding-top: 21px;
+    position: relative;
+    padding-left: 162px;
+    padding-right: 162px;
+    padding-bottom: 21px;
+    float: left;
+}
+
+
+.fb {
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.twi {
+    padding-top: 21px;
+    padding-bottom: 22px;
+}
+
+.google {
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
 
 /**Bloc 10**/
 

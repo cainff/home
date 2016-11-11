@@ -102,9 +102,9 @@ font-family: 'Montserrat', sans-serif;
 }
 
 #bloc3 {
-    height: 850px;
+    height: 600px;
     width: 100%;
-    background-color: red;
+    background-color: #121212;
 }
 
 #bloc4 {
@@ -195,4 +195,68 @@ font-family: 'Montserrat', sans-serif;
 .picto {
     padding-left:10px;
 }
+
+
+/**Bloc3**/
+
+.position {
+    display: inline-block;
+    position: relative;
+    float:left;
+    width: 286px;
+    top: -145Px;
+}
+
+.border {
+    border:1px solid black;
+}
+
+.img1 {
+    background-color: white;
+    height: 350px;
+}
+.img2 {
+    background-color: white;
+    height: 270px;
+}
+.img3 {
+    background-color: white;
+    height: 240px;
+    
+}
+.img4 {
+    background-color: white;
+    height: 260px;
+}
+.img5 {
+    background-color: white;
+    height: 370px;
+}
+.img6 {
+    background-color: white;
+    height: 300px;
+    top: -166px;
+}
+
+.img7 {
+    background-color: white;
+    height: 270px;
+    top: -246px;
+}
+.img8 {
+    background-color: white;
+    height: 360px;
+    top: -276px;
+}
+.img9 {
+    background-color: white;
+    height: 375px;    
+    top: -256px;
+}
+.img10 {
+    background-color: white;
+    height: 360px;
+    top: -150px;
+}
+
 

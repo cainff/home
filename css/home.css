@@ -7,12 +7,19 @@ font-family: 'Montserrat', sans-serif;
 
 /**Class**/
 
+.wrap {
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
+}
+
 .main_title {
     font-family: 'Dosis', sans-serif;
-    font-size: 100px;
+    font-size: 60px;
     font-weight: 800;
     letter-spacing: 5px;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .main_subtitle {
@@ -81,13 +88,15 @@ font-family: 'Montserrat', sans-serif;
 /**Structure**/
 
 #bloc1 {
-    height: 600px;
+    height: 810px;
     width: 100%;
-    background-color: red;
+    background:url('/img/bloc1/bg_bloc1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #bloc2 {
-    height: 700px;
+    height: 800px;
     width: 100%;
     background-color:#121212;
 }
@@ -95,7 +104,7 @@ font-family: 'Montserrat', sans-serif;
 #bloc3 {
     height: 850px;
     width: 100%;
-    background-color: white;
+    background-color: red;
 }
 
 #bloc4 {
@@ -152,4 +161,38 @@ font-family: 'Montserrat', sans-serif;
     background: -o-linear-gradient(70deg, #f3c400, #ff5901);
     background: -moz-linear-gradient(70deg, #f3c400, #ff5901); 
     background: linear-gradient(70deg, #f3c400, #ff5901);
+    
+}
+
+/**Content**/
+    
+/**Bloc1**/
+
+#mouse_center {
+    width: 3%;
+}
+
+.mouse {
+    margin-top: 450px;
+}
+
+/**Bloc2**/
+
+.col{
+    position: relative;
+    margin-top: 145px;
+    height: 100%;
+    width: 33%;
+    float:left;
+    display: block;
+}
+
+.bloc {
+    height: 26%;
+    width: 100%;
+}
+
+.picto {
+    padding-left:10px;
+}
 

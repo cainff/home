@@ -461,6 +461,13 @@ position: absolute;
 
 .dis_bloc {
     display: block;
+    width: 83%;
+}
+
+.pos_text {
+    width: 85%;
+    height: 10%;
+
 }
 
 .pos_img {
@@ -474,7 +481,7 @@ position: absolute;
     width: 100%;
     position: relative;
     float: left;
-    margin-top: 100px;
+    margin-top: 85px;
     margin-left:-13px;
 }
 .bloc_img2 {

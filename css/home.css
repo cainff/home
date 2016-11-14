@@ -90,12 +90,17 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .pclass2 {
-    font-family:'Noto Sans',sans-serif;
-    font-size: 14px;
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 12px;
     font-style: italic;
-    color:white;
+    color: white;
     white-space: pre-wrap;
-    line-height: 3px;
+    line-height: 25px;
+    padding-top: 12px;
+    position: relative;
+    float: left;
+    margin-left: 148px;
+    margin-top: 16px;
 }
 
 
@@ -461,7 +466,7 @@ position: absolute;
 
 .dis_bloc {
     display: block;
-    width: 83%;
+    width: 94%;
 }
 
 .pos_text {
@@ -473,7 +478,7 @@ position: absolute;
 .pos_img {
     position: relative;
     float: left;
-    padding-left: 92px;
+     padding-left: 104px;
 }
 
 .bloc_img {
@@ -562,7 +567,7 @@ position: absolute;
     position: relative;
     float: left;
     display: inline;
-    margin-top: 240px;
+    margin-top: 70px;
 }
 
 .awesome {
@@ -609,6 +614,27 @@ position: absolute;
     background: linear-gradient(70deg, #f3c400, #ff5901);
 }
 
+.skill_title {
+    padding-top: 95px;
+}
+
+.wpress_img {
+    position: relative;
+    top: 14px;
+}
+
+.wpress_txt {
+    margin-top: 25px;
+}
+
+.move_title_blc6 {
+    margin-top: 10px;
+}
+
+.sarbat {
+    margin-top: -118px;
+    margin-left: 145px;
+}
 
 /**Bloc 8**/
 

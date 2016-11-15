@@ -194,7 +194,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 #bloc10 {
-    height: 450px;
+    height: 750px;
     width: 100%;
     background-color: #121212;
 }
@@ -715,5 +715,53 @@ position: absolute;
 }
 
 /**Bloc 10**/
+
+.w_bloc10 {
+    width: 50%;
+    height: 60%;
+    position: relative;
+    float: left;
+    padding-top: 150px;
+}
+
+.write_text {
+    display: block;
+    border-bottom: 1px solid #505050;
+    width: 515px;
+    background: rgba(18, 18, 18, 0.5);
+    margin-top: 80px;
+    color:#505050;
+    font-family: 'PT sans',sans-serif;
+    font-size:14px;
+    font-style:italic;
+
+}
+
+::-webkit-input-placeholder {
+    color: #505050;
+    font-family: 'PT sans',sans-serif;
+    font-size:14px;
+    font-style:italic;
+}
+
+.submit_text {
+    position: relative;
+    float: right;
+    right: 61px;
+    top: 40px;
+    border: 0px solid;
+    width: 170px;
+    height: 50px;
+    color:white;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(70deg, #f3c400, #ff5901);
+    background: -moz-linear-gradient(70deg, #f3c400, #ff5901);
+    background: -o-linear-gradient(70deg, #f3c400, #ff5901);
+    background: linear-gradient(70deg, #f3c400, #ff5901);
+}
 
 /**Footer**/

@@ -586,6 +586,19 @@ position: absolute;
         padding-top: 80px;
 }
 
+.array:hover {
+    background: -webkit-linear-gradient(70deg, #f3c400, #ff5901);
+    background: -moz-linear-gradient(70deg, #f3c400, #ff5901);
+    background: -o-linear-gradient(70deg, #f3c400, #ff5901);
+    background: linear-gradient(70deg, #f3c400, #ff5901);
+}
+
+.now:hover {
+    color:black;
+}
+
+
+
 /**Bloc 7**/
 
 .skills{

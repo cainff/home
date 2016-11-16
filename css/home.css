@@ -5,6 +5,23 @@ font-family: 'Montserrat', sans-serif;
 **/
 
 
+input:focus{
+        outline: none;
+}
+
+a{
+    color:white;
+}
+
+a {
+  text-decoration: none; 
+  color:white;    
+}
+
+a:link {
+    color:white;
+}
+
 /**Class**/
 
 .wrap {
@@ -125,6 +142,14 @@ font-family: 'Montserrat', sans-serif;
     color: white;
     letter-spacing: 1px;
     text-align: center;
+}
+
+.p_footer {
+    color:white;
+    font-family: 'PT Sans',sans-serif;
+    font-size:14px;
+    letter-spacing: 1px;
+    font-weight: 400;
 }
 
 /**Structure**/
@@ -714,6 +739,13 @@ position: absolute;
     padding-bottom: 23px;
 }
 
+.social:hover {
+    background: -webkit-linear-gradient(70deg, #f3c400, #ff5901);
+    background: -moz-linear-gradient(70deg, #f3c400, #ff5901);
+    background: -o-linear-gradient(70deg, #f3c400, #ff5901);
+    background: linear-gradient(70deg, #f3c400, #ff5901);
+}
+
 /**Bloc 10**/
 
 .w_bloc10 {
@@ -729,7 +761,7 @@ position: absolute;
     border-bottom: 1px solid #505050;
     width: 515px;
     background: rgba(18, 18, 18, 0.5);
-    margin-top: 80px;
+    margin-top:60px;
     color:#505050;
     font-family: 'PT sans',sans-serif;
     font-size:14px;
@@ -764,4 +796,235 @@ position: absolute;
     background: linear-gradient(70deg, #f3c400, #ff5901);
 }
 
+.move_txt {
+    height: 53%;
+    width: 100%;
+    margin-top: 37px;
+}
+
+.desc {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+}
+
+.reach {
+    position: absolute;
+    width: 29%;
+    height: 20%;
+    /* margin-top: 162px; */
+    top: 345px;
+}
+
+.mail {
+    position: absolute;
+    width: 29%;
+    height: 20%;
+    left: 240px;
+    top: 345px;
+
+}
+
+.backline2 {
+    white-space: pre-line;
+}
+
 /**Footer**/
+
+.w_footer {
+    width: 40%;
+    height: 20%;
+    text-align: center;
+    padding-top: 46px;
+}
+
+/**Menu**/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+
+.wrapper {
+  height: 100%;
+  transition: all 300ms ease-in-out;  
+  margin: 1em 0;
+  padding: 0;
+}
+
+.background--blur {
+  background: #004d40;
+}
+
+.menu {
+  font-size:2em;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+.menu div {
+    margin: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    font-family: 'PT sans',sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: none;
+}
+
+.menu div:last-child {
+  border: 0;
+}
+
+.menu--off {
+    position: absolute;
+    left: -50%;
+    width: 25%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.1);
+    min-height: 545px;
+    height: 26%;
+    margin-top: 1em;
+    transition: all 300ms;
+}
+
+.menu--on {
+  left: 0;
+  box-shadow: 8px 8px 20px 0 rgba(0, 0, 0, 0.2);
+  transition: all 300ms;
+}
+
+.material-design-hamburger button {
+  display: block;
+  border: none;
+  background: none;
+  outline: 0;
+}
+
+.material-design-hamburger__icon {
+    padding-left: 903px;
+    cursor: pointer;
+    position: relative;
+    top: 80px;
+}
+
+.material-design-hamburger__layer {
+    display: block;
+    width: 50px;
+    height: 6px;
+    background: black;
+    position: relative;
+    animation-duration: 300ms;
+    animation-timing-function: ease-in-out;
+}
+
+.material-design-hamburger__layer:before, .material-design-hamburger__layer:after {
+  display: block;
+  width: inherit;
+  height: 10px;
+  position: absolute;
+  background: inherit;
+  left: 0;
+  content: '';
+  animation-duration: 300ms;
+  animation-timing-function: ease-in-out;
+}
+
+.material-design-hamburger__layer:before {
+  bottom: 200%;
+}
+
+.material-design-hamburger__layer:after {
+  top: 200%;
+}
+
+.material-design-hamburger__icon--to-arrow {
+  animation-name: material-design-hamburger__icon--slide;
+  animation-fill-mode: forwards;
+}
+
+.material-design-hamburger__icon--to-arrow:before {
+  animation-name: material-design-hamburger__icon--slide-before;
+  animation-fill-mode: forwards;
+}
+
+.material-design-hamburger__icon--to-arrow:after {
+  animation-name: material-design-hamburger__icon--slide-after;
+  animation-fill-mode: forwards;
+}
+
+.material-design-hamburger__icon--from-arrow {
+  animation-name: material-design-hamburger__icon--slide-from;
+}
+
+.material-design-hamburger__icon--from-arrow:before {
+  animation-name: material-design-hamburger__icon--slide-before-from;
+}
+
+.material-design-hamburger__icon--from-arrow:after {
+  animation-name: material-design-hamburger__icon--slide-after-from;
+}
+
+@keyframes material-design-hamburger__icon--slide {
+  0% {
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes material-design-hamburger__icon--slide-before {
+  0% {
+  }
+  100% {
+    transform: rotate(45deg);
+    margin: 3% 37%;
+    width: 75%;
+  }
+}
+
+@keyframes material-design-hamburger__icon--slide-after {
+  0% {
+  }
+  100% {
+    transform: rotate(-45deg);
+    margin: 3% 37%;
+    width: 75%;
+  }
+}
+
+@keyframes material-design-hamburger__icon--slide-from {
+  0% {
+    transform: rotate(-180deg);
+  }
+  100% {
+  }
+}
+
+@keyframes material-design-hamburger__icon--slide-before-from {
+  0% {
+    transform: rotate(45deg);
+    margin: 3% 37%;
+    width: 75%;
+  }
+  100% {
+  }
+}
+
+@keyframes material-design-hamburger__icon--slide-after-from {
+  0% {
+    transform: rotate(-45deg);
+    margin: 3% 37%;
+    width: 75%;
+  }
+  100% {
+  }
+}
+
